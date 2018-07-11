@@ -3,7 +3,7 @@ import "./form.css"
 
 
 const Form = props => (
-  <div class="container">
+  <div >
 
   <form className="book">
 
@@ -63,22 +63,14 @@ const Form = props => (
       <button
         onClick={props.handleFormSubmit}
         type="submit"
-        className="btn btn-lg btn-primary"
+        className="btn btn-lg btn-secondary"
       >
         Submit
       </button>
     </div>
   </form>
 
-  <div className="book" >
-  <div className="media" >
-  <img src="https://franceracing.fr/wp-content/uploads/2017/12/McLaren-Copier.jpeg" className="align-self-start mr-3 rounded" style={{width:100}}/>
-  <div className="media-body">
-    <h4>Media Top</h4>
-    <p>Lorem ipsum...</p>
-  </div>
-  </div>
-</div>
+
 
 </div>
 );

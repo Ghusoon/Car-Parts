@@ -24,20 +24,20 @@ state = {
  render(){
      return (
 <div>
-<Navbar color="dark" dark expand="sm" className="mb-5">
+<Navbar color="secondary" dark expand="sm" className="mb-5">
  <Container>
    < NavbarBrand href="/">Car Parts </ NavbarBrand>
      <NavbarToggler onClick={this.toggle}/>
         <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav className="ml-auto" navbar>
                     <NavItem>
-                        <NavLink href="#">Home</NavLink>
+                        <NavLink href="/">Home</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="#">About</NavLink>
+                        <NavLink href="/about">About</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="#">Contact</NavLink>
+                        <NavLink href="/contact">Contact</NavLink>
                     </NavItem>
                 </Nav>
             </Collapse>
