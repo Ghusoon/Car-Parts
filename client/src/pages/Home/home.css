@@ -26,8 +26,9 @@
     background-repeat: no-repeat;
     max-width: 100%;
     height: auto;
-    background-size: 1540px 550px;
+    background-size: 1540px 800px;
     margin: 0px;
+    padding: 150px;
 }
 .btn{
     
