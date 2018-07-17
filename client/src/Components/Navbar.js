@@ -10,6 +10,7 @@ import {
     Container
 }from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './nav.css'
 
 class AppNavbar extends Component{
 state = {

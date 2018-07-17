@@ -5,15 +5,16 @@ import "./form.css"
 
 
 const Media = props => (
-<div className="book" >
+
 <div className="media" >
-<img src="https://franceracing.fr/wp-content/uploads/2017/12/McLaren-Copier.jpeg" className="align-self-start mr-3 rounded" style={{width:100}}/>
+<img alt={props.name} src={props.image} className="align-self-start mr-3 rounded" style={{width:200}}/>
 <div className="media-body">
-  <h4>Media Top</h4>
-  <p>Lorem ipsum...</p>
+<p className="price">{props.price} $</p>
+<h4>{props.name}</h4>
+  <p>{props.description}</p>
 </div>
 </div>
-</div>
+
 
 );
 

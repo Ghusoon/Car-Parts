@@ -4,5 +4,16 @@
     border: 1px solid #eee;
     box-shadow: 0 2px 3px #ccc;
     padding: 15px;
-  
+    
+}
+.price{
+    float: right;
+    color:red;
+}
+.media{
+    
+        margin:30px auto;
+        border-bottom: 1px solid #883301;
+        padding: 15px;
+    
 }
