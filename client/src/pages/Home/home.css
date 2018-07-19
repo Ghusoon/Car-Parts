@@ -4,6 +4,15 @@
     margin-left:30px ;
     background-color: #A3A3A5;
     border: rgb(56, 56, 58);
+    background-color: #fff;
+}
+.form-group{
+    /* background-color: rgb(50, 114, 219,0.7); */
+    padding-bottom: 60px;
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 200px;
+    /* clear: both; */
 }
 .form-control:hover {
 
@@ -22,33 +31,41 @@
 
 .body{
     
-    background-image:url("https://www.popsci.com/sites/popsci.com/files/styles/1000_1x_/public/images/2018/03/senna.jpg?itok=eYNPMGjA&fc=50,50");
+    /* background-image:url("https://s-media-cache-ak0.pinimg.com/originals/9f/43/b4/9f43b417912db312a0d949635a24f2f8.jpg");
     background-repeat: no-repeat;
     max-width: 100%;
-    height: auto;
-    background-size: 1540px 800px;
-    margin: 0px;
-    padding: 150px;
+    height: auto; */
+    /* background-size: 1500px 500px; */
+    /* margin: 0px;
+    padding: 250px; */
+     
+     /* padding-bottom: 100px; */
+    /* padding-left: 100px; */
+    /* padding-right: 100px; */ 
 }
 .btn{
     
     margin-left:30px;
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 .topic{
-    color: #A3A3A5;
+    color: black;
     margin: 10px 30px;
     font-family: Montserrat,'Trebuchet MS',Helvetica,sans-serif;
+    font-size: 30px;
     
 }
 .header{
-    background-color: #A3A3A5;
+    background-color: rgb(116, 71, 240);
 }
 .head{
-    text-align: center;
-    color: #A3A3A5;
-    position: absolute;
-    margin-left: 700px;
-    margin-top: 80px;
+    text-align: left;
+    color: #404040; 
+    font-weight: bold;
     font-family: Montserrat,'Trebuchet MS',Helvetica,sans-serif;
+    margin-bottom: 70px;
+}
+.img-fluid{
+    float: right;
 }

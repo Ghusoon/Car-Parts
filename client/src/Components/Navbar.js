@@ -27,19 +27,17 @@ state = {
 <div>
 <Navbar color="secondary" dark expand="sm" className="mb-5">
  <Container>
-   < NavbarBrand href="/">Auto Werx</ NavbarBrand>
+   < NavbarBrand href="/"> Auto Werx</ NavbarBrand>
      <NavbarToggler onClick={this.toggle}/>
         <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav className="ml-auto" navbar>
                     <NavItem>
-                        <NavLink href="/">Home</NavLink>
+                        <NavLink href="/">Find Part</NavLink>
                     </NavItem>                    
                     <NavItem>
                         <NavLink href="/about">About</NavLink>
                     </NavItem>
-                    <NavItem>
-                        <NavLink href="/">Find A Part</NavLink>
-                    </NavItem>
+                   
                     <NavItem>
                         <NavLink href="/contact">Contact</NavLink>
                     </NavItem>

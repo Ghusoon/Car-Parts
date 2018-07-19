@@ -1,8 +1,9 @@
 [
     {
-      "partModel": 1,
+      "name":"Alternator",
+     
       "Year": "2009",
-      "Description": "Fully tested and functional with 90 warranty.",
+    "Description":"Fully tested and functionl with 90 days warranty",
       "partGrade": "A",
       "price": "$Call",
       "image": "https://www.completeautorep.com/wp-content/uploads/2016/08/es1024-a_2.png"
@@ -10,42 +11,46 @@
     },
 
     {
-      "partModel": 1,
+      "name":"Starter",
       "Year": "2005",
-      "Description": "Fully tested and functional with 90 warranty.",
+      "Description": "Fully tested and functionl with 90 days warranty",
       "partGrade": "A",
       "price": "$Call",
       "image": "http://www.southernautorecycling.com/img/Starters.png"
-     
+      
+      
     },
-
-
+    
+    
     {
+      "name":"Engine",
       "partModel": 1,
       "Year": "2012",
-      "Description": "Fully tested and functional with 90 warranty.",
+      "Description": "Fully tested and functionl with 90 days warranty",
       "partGrade": "A",
       "price": "$Call",
       "image": "http://www.pngall.com/wp-content/uploads/2016/05/Engine-PNG-File.png"
-     
+      
     },
-
-
+    
+    
     {
+      "name":"Transmission",
       "partModel": 1,
       "Year": "2010",
-      "Description": "Fully tested and functional with 90 warranty.",
+      "Description": "Fully tested and functionl with 90 days warranty",
       "partGrade": "A",
       "price": "$Call",
       "image": "https://www.grangermotors.com/blogs/445/wp-content/uploads/2017/05/Aisin-automatic.png"
-     
+      
     },
-
-
+    
+    
     {
+      "name":"A/C Compressor",
       "partModel": 1,
       "Year": "2006",
-      "Description": "Fully tested and functional with 90 warranty.",
+      "Description": "Fully tested and functionl with 90 days warranty",
       "partGrade": "A",
       "price": "$Call",
       "image": "https://www.allamericanautoparts.com/wp-content/uploads/2017/08/AC-Compressor.png"

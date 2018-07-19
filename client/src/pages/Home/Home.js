@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import{Container,Row,Col} from 'reactstrap';
 // import Form from '../../Components/Form';
 import Media from '../../Components/Media';
 import Navbar from '../../Components/Navbar';
+import { Col, Row, Container } from "../../Components/Grid";
+import partImage from '../../image/parts.png';
 import "./home.css"
 import carParts from './carParts.json'
 
@@ -27,16 +28,17 @@ class Home extends Component {
 
     render() {
         return (
-            <div className="header">
+            <div >
             <Navbar />
             <Row>
-            <Col>
-            <div className="body" >
+            <Col size="md-12">
+            
+            <img src={partImage} className="img-fluid"  />
             <form className="form-group">
             
-            <h1 className="head"> The best Parts Seller</h1>
+            <h2 className="head">Quality Used Auto Parts</h2>
             <label htmlFor="topic" className="topic">
-            <strong>Search your Part</strong>
+            <h5>Find your Part</h5>
             
             </label>
             <select className="form-control"  onChange={this.handleChange}>
@@ -2102,7 +2104,7 @@ class Home extends Component {
             </select>
        
             
-            </form>
+            
             <button
             onClick={this.handleSubmit}
             type="submit"
@@ -2110,8 +2112,8 @@ class Home extends Component {
             >
             Submit
             </button>
-            
-            </div>
+            </form>
+           
             </Col>
             </Row>
             <Container className="header">
@@ -2123,7 +2125,7 @@ class Home extends Component {
                     name={carPart.name}
                     image={carPart.image}
                     price={carPart.price}
-                    description={carPart.description}
+                    description={carPart.Description}
                     
                     />
                 )

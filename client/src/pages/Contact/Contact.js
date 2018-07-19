@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import{Container} from 'reactstrap';
-import Navbar from '../../Components/Navbar'
+import Navbar from '../../Components/Navbar';
+import partImage from '../../image/vecter car logo.png';
+import "./contact.css";
 
 class Contact extends Component {
 
@@ -10,28 +12,36 @@ class Contact extends Component {
             <div>
             <Navbar />
           <Container>
+          <img src={partImage} className="img-fluid" />
+          <div className="contact">
           <div class="">Address:</div>
           <div>4395 SE 95th St, Ocala, FL 34480</div>
           <br/>
           <div class="">Contact:</div>
-          <div>352-307-1071</div>
-          <div>autowerx1@yahoo.com</div>
+          <div > Phone Number: 
+          <br/>
+          <a className="link" href="tel://1-352-307-1071">+1 (352) 307-1071</a></div>
+          <div >Email address: 
+          <br/>
+          <a className="link" href="autowerx1@yahoo.com">autowerx1@yahoo.com</a></div>
           <br/>
           <div class="">Hours:</div>
+          
           <div>
-            Monday:    9AM-5PM
-            <br/>
-            Tuesday:   9AM-5PM
-            <br/>
-            Wednesday: 9AM-5PM
-            <br/>
-            Thursday:  9AM-5PM
-            <br/>
-            Friday:    9AM-5PM
-            <br/>
-            Saturday:  9AM-4PM
-            <br/>
-            Sunday:    Closed
+           <p> Monday   :    9am-5pm</p>
+            
+            <p>Tuesday:   9am-5pm</p>  
+  
+           <p> Wednesday: 9am-5pm</p>
+  
+           <p> Thursday:  9am-5pm</p>
+  
+            <p>Friday:    9am-5pm </p>
+  
+            <p>Saturday:  9am-4pm</p>
+  
+            <p>Sunday:    Closed</p>
+       </div>
           </div>
           </Container>
           </div>
