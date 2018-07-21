@@ -25,7 +25,7 @@ state = {
  render(){
      return (
 <div>
-<Navbar color="secondary" dark expand="sm" className="mb-5">
+<Navbar color="secondary" light expand="sm" className="mb-5">
  <Container>
    < NavbarBrand href="/"> Auto Werx</ NavbarBrand>
      <NavbarToggler onClick={this.toggle}/>

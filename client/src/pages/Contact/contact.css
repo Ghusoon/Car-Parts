@@ -1,14 +1,33 @@
-.img-fluid{
-    float: right;
-    width: 500px;
-    
-}
+
 .contact{
    
-    width: 50%;
-    margin-top: 50px;
+   
+    width: 500px;
+    margin-left: 30px;
     font-size: 20px;
+    float: left;
+    text-align: center;
 }
 .link{
-    color: blue;
+    color: rgb(39, 103, 172);
+}
+/* .img-fluid{
+    width: 500px;
+} */
+
+.calinder{
+    
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+    
+    
+
+}
+/* .hours{
+    text-align: left;
+} */
+.map{
+    border: 2px solid #6C757D;
+    
 }

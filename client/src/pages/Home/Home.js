@@ -5,7 +5,8 @@ import Navbar from '../../Components/Navbar';
 import { Col, Row, Container } from "../../Components/Grid";
 import partImage from '../../image/parts.png';
 import "./home.css"
-import carParts from './carParts.json'
+import carParts from './carParts.json';
+import Footer from "../../Components/Footer";
 
 class Home extends Component {
     state = {
@@ -31,12 +32,12 @@ class Home extends Component {
             <div >
             <Navbar />
             <Row>
-            <Col size="md-12">
             
-            <img src={partImage} className="img-fluid"  />
-            <form className="form-group">
+            <Col size="md-12" >
+            <img src={partImage} className="img-fluid" alt="part image" />
+            <form className="form-group"  >
             
-            <h2 className="head">Quality Used Auto Parts</h2>
+            <h1 className="head">Quality Used Auto Parts</h1>
             <label htmlFor="topic" className="topic">
             <h5>Find your Part</h5>
             
@@ -2113,10 +2114,10 @@ class Home extends Component {
             Submit
             </button>
             </form>
-           
             </Col>
+            
             </Row>
-            <Container className="header">
+            <Container >
             { this.state.parts ?<div >
                 {this.state.carParts.map(carPart =>(
                     <Media 
@@ -2125,6 +2126,7 @@ class Home extends Component {
                     name={carPart.name}
                     image={carPart.image}
                     price={carPart.price}
+                    Grade={carPart.partGrade}
                     description={carPart.Description}
                     
                     />
@@ -2136,6 +2138,7 @@ class Home extends Component {
             
             
             </Container>
+            <Footer />
             </div>
         )
     }

@@ -1,3 +1,13 @@
 .mb-5{
     margin-bottom: 0!important;
 }
+.nav-link{
+    color: black;
+    font-size: 17px;
+    font-weight: 300px;
+}
+.navbar-brand{
+    
+    font-weight: bold;
+    color: black;
+}

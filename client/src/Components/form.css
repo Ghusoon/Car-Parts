@@ -8,12 +8,20 @@
 }
 .price{
     float: right;
-    color:red;
+    color:#883301;
 }
 .media{
     
         margin:30px auto;
-        border-bottom: 1px solid #883301;
+        border-top: 1px solid #883301;
         padding: 15px;
     
+}
+/* .grade{
+    float: right;
+    color:green;
+    font-size: 35px;
+} */
+.alink{
+    color:#0056B3;
 }

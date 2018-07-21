@@ -10,7 +10,7 @@
     /* background-color: rgb(50, 114, 219,0.7); */
     padding-bottom: 60px;
     width: 400px;
-    margin-left: 40px;
+    margin-left: 150px;
     margin-top: 200px;
     /* clear: both; */
 }
@@ -24,25 +24,12 @@
 .form-control:visited {
 
     width: 300px;
-    margin-left:30px ;
+    margin-left:50px ;
     background-color: rgb(216, 212, 219);
     border: rgb(56, 56, 58);
 }
 
-.body{
-    
-    /* background-image:url("https://s-media-cache-ak0.pinimg.com/originals/9f/43/b4/9f43b417912db312a0d949635a24f2f8.jpg");
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: auto; */
-    /* background-size: 1500px 500px; */
-    /* margin: 0px;
-    padding: 250px; */
-     
-     /* padding-bottom: 100px; */
-    /* padding-left: 100px; */
-    /* padding-right: 100px; */ 
-}
+
 .btn{
     
     margin-left:30px;
@@ -56,9 +43,7 @@
     font-size: 30px;
     
 }
-.header{
-    background-color: rgb(116, 71, 240);
-}
+
 .head{
     text-align: left;
     color: #404040; 
@@ -68,4 +53,8 @@
 }
 .img-fluid{
     float: right;
+    width: 750px;
+}
+#header{
+background: #000;
 }
